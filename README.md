@@ -57,19 +57,49 @@ This Next.js project serves as a robust payment gateway solution for websites, f
 ├── src
 │   ├── components
 │   │   ├── common
-│   │   ├── payment
-│   │   └── ...
-│   │
+│   │   │   ├── Button
+│   │   │   │   ├── Button.js
+│   │   │   │   ├── Button.module.css
+│   │   │   │   └── index.js
+│   │   │   ├── Input
+│   │   │   │   ├── Input.js
+│   │   │   │   ├── Input.module.css
+│   │   │   │   └── index.js
+│   │   │   └── ...
+│   │   │
+│   │   └── payment
+│   │       ├── PaymentForm
+│   │       │   ├── PaymentForm.js
+│   │       │   ├── PaymentForm.module.css
+│   │       │   └── index.js
+│   │       ├── PaymentStatus
+│   │       │   ├── PaymentSuccess.js
+│   │       │   ├── PaymentFailure.js
+│   │       │   └── index.js
+│   │       └── ...
+│   │   
 │   ├── pages
 │   │   ├── api
-│   │   ├── payment
-│   │   │   ├── success
-│   │   │   ├── failure
+│   │   │   ├── payment.js
 │   │   │   └── ...
-│   │   └── ...
+│   │   │
+│   │   └── payment
+│   │       ├── success
+│   │       │   ├── Success.js
+│   │       │   ├── Success.module.css
+│   │       │   └── index.js
+│   │       ├── failure
+│   │       │   ├── Failure.js
+│   │       │   ├── Failure.module.css
+│   │       │   └── index.js
+│   │       └── ...
 │   │
 │   ├── styles
 │   │   ├── themes
+│   │   │   ├── lightTheme.css
+│   │   │   ├── darkTheme.css
+│   │   │   └── index.js
+│   │   │
 │   │   ├── global.css
 │   │   └── ...
 │   │
@@ -80,8 +110,19 @@ This Next.js project serves as a robust payment gateway solution for websites, f
 │   │
 │   ├── content
 │   │   ├── assets
+│   │   │   ├── images
+│   │   │   │   └── ...
+│   │   │   ├── videos
+│   │   │   │   └── ...
+│   │   │   └── ...
+│   │   │
 │   │   ├── copy
+│   │   │   ├── homepage.js
+│   │   │   ├── paymentCopy.js
+│   │   │   └── ...
+│   │   │
 │   │   └── ...
+│   │
 │   │
 │   ├── services
 │   │   ├── paymentGateway.js
@@ -99,7 +140,13 @@ This Next.js project serves as a robust payment gateway solution for websites, f
 │
 ├── tests
 │   ├── unit
+│   │   ├── utils.test.js
+│   │   └── ...
+│   │
 │   ├── integration
+│   │   ├── paymentIntegration.test.js
+│   │   └── ...
+│   │
 │   └── ...
 │
 ├── scripts
@@ -116,21 +163,22 @@ This Next.js project serves as a robust payment gateway solution for websites, f
 ```
 
 Explanation:
-public: Static assets like images and configuration files.
-src: Main source code directory.
-    components: Reusable React components.
-    pages: Next.js pages, with an api directory for API routes.
-    styles: Styling, with a themes directory for theme-related styles.
-    utils: Utility functions and helpers.
-    content: Content assets, such as copy and images.
-    services: Business logic and services (e.g., payment gateway integration).
-    hooks: Custom React hooks.
-config: Configuration files.
-tests: Test files, categorized by unit and integration.
-scripts: Project-related scripts for build, deployment, etc.
-Configuration files like .gitignore, .eslintrc.js, .prettierrc.
-README.md: Project documentation.
-package.json: Project dependencies and scripts.
+
+- **public:** Static assets like images and configuration files.
+- **src:** Main source code directory.
+   - **components:** Reusable React components.
+   - **pages:** Next.js pages, with an api directory for API routes.
+   - **styles:** Styling, with a themes directory for theme-related styles.
+   - **utils:** Utility functions and helpers.
+   - **content:** Content assets, such as copy and images.
+   - **services:** Business logic and services (e.g., payment gateway integration).
+   - **hooks:** Custom React hooks.
+   - **config:** Configuration files.
+   - **tests:** Test files, categorized by unit and integration.
+   - **scripts:** Project-related scripts for build, deployment, etc.
+- **Configuration** files like .gitignore, .eslintrc.js, .prettierrc.
+- **README.md:** Project documentation.
+- **package.json:** Project dependencies and scripts.
 
 
 ---
