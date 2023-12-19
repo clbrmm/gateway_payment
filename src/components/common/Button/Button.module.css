@@ -1,0 +1,14 @@
+/* src/components/common/Button/Button.module.css */
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0070f3; /* Example background color, adjust as needed */
+    color: #ffffff; /* Example text color, adjust as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Add more styling based on your design system */
+  }
+  
+  /* Add additional styles for different states like :hover, :active, etc. if needed */
+  

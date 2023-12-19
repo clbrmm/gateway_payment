@@ -1,0 +1,13 @@
+/* src/components/common/Input/Input.module.css */
+.input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc; /* Example border color, adjust as needed */
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    /* Add more styling based on your design system */
+  }
+  
+  /* Add additional styles for different states like :hover, :focus, etc. if needed */
+  
