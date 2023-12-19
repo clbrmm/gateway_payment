@@ -82,8 +82,7 @@ This Next.js project serves as a robust payment gateway solution for websites, f
 │   │   ├── api
 │   │   │   ├── payment.js
 │   │   │   └── ...
-│	 │   ├── index.js
-│	 │	  └── ...
+│   │   │
 │   │   │
 │   │   └── payment
 │   │       ├── success
@@ -96,7 +95,10 @@ This Next.js project serves as a robust payment gateway solution for websites, f
 │   │       │   └── index.js
 │   │       │── index.js   
 │   │       │── PaymentPage.js
-│   │   │   ├── ...
+│   │       └── ...
+│   │
+│   ├──index.js
+│   ├── ...
 │   │
 │   ├── styles
 │   │   ├── themes
