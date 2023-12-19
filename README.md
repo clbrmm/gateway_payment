@@ -94,7 +94,9 @@ This Next.js project serves as a robust payment gateway solution for websites, f
 │   │       │   ├── Failure.js
 │   │       │   ├── Failure.module.css
 │   │       │   └── index.js
-│   │       └── ...
+│   │       │── index.js   
+│   │       │── PaymentPage.js
+│   │   │   ├── ...
 │   │
 │   ├── styles
 │   │   ├── themes
