@@ -170,36 +170,36 @@ This Next.js project serves as a robust payment gateway solution for websites, f
 
 Explanation:
 
-    public: Contains static assets like images, robots.txt, manifest.json, and favicon.png.
+- **public:** Contains static assets like images, robots.txt, manifest.json, and favicon.png.
 
-    src:
-   - **components:** Reusable React components, organized by functionality.
-   - **components:** Reusable React components, organized by functionality.
-            - **common:** General-purpose components like buttons and inputs.
-            - **payment:** Components related to the payment process, such as the payment form and status components.
-        - **pages:** Next.js pages, including API routes for payment processing.
-            - **index.js:** Main entry point for your application.
-            - **payment:** Pages related to payment success and failure.
-        - **styles:** Styling files, including themes and global styles.
-        - **utils:** Utility functions and helper modules.
-        - **content:** Assets like images, videos, and copy for different parts of the application.
-        - **services:** Modules for handling business logic, such as the payment gateway integration.
-        - **hooks:** Custom React hooks that can be reused across components.
-        - **config:** Configuration files, such as paymentConfig.js.
-        - **tests:** Unit and integration tests for different parts of the application.
-        - **scripts**: Project-related scripts for building, deployment, etc.
+- **src:**
+- **components:** Reusable React components, organized by functionality.
+- **components:** Reusable React components, organized by functionality.
+      - **common:** General-purpose components like buttons and inputs.
+      - **payment:** Components related to the payment process, such as the payment form and status components.
+   - **pages:** Next.js pages, including API routes for payment processing.
+      - **index.js:** Main entry point for your application.
+      - **payment:** Pages related to payment success and failure.
+   - **styles:** Styling files, including themes and global styles.
+   - **utils:** Utility functions and helper modules.
+   - **content:** Assets like images, videos, and copy for different parts of the application.
+   - **services:** Modules for handling business logic, such as the payment gateway integration.
+   - **hooks:** Custom React hooks that can be reused across components.
+   - **config:** Configuration files, such as paymentConfig.js.
+   - **tests:** Unit and integration tests for different parts of the application.
+   - **scripts**: Project-related scripts for building, deployment, etc.
 
-    - **config:** Configuration files, such as paymentConfig.js.
+- **config:** Configuration files, such as paymentConfig.js.
 
-    - **tests:** Test files, organized into unit and integration tests.
+- **tests:** Test files, organized into unit and integration tests.
 
-    - **scripts:** Project-related scripts for building, deployment, etc.
+- **scripts:** Project-related scripts for building, deployment, etc.
 
-    - **.gitignore**, .eslintrc.js, .prettierrc: Configuration files for Git, ESLint, and Prettier.
+- **.gitignore**, .eslintrc.js, .prettierrc: Configuration files for Git, ESLint, and Prettier.
 
-    - **README.md:** Project documentation.
+- **README.md:** Project documentation.
 
-    - **package.json:** Dependency and script configuration for the project.
+- **package.json:** Dependency and script configuration for the project.
 
 ---
 
